@@ -1,0 +1,1 @@
+sonar-scanner -D"sonar.login=sqp_14f315020a703af1a87dc99a07782386331a234d"

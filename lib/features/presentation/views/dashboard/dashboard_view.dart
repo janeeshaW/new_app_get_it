@@ -20,6 +20,8 @@ import 'package:news_app/features/presentation/views/dashboard/favourite/favouri
 import 'package:news_app/features/presentation/views/dashboard/home/home_view.dart';
 import 'package:news_app/features/presentation/views/dashboard/profile/profile_view.dart';
 
+import '../../../../core/util/app_constants.dart';
+
 
 
 class DashboardView extends BaseView {
@@ -176,7 +178,7 @@ class _DashboardViewState extends BaseViewState<DashboardView>
                                   : AppColors.appGrayColor,
                             ),
                             Text(
-                              "Home",
+                              dashboardHome,
                               style: TextStyle(
                                   color: currentPage == 0
                                       ? AppColors.colorPrimary
@@ -202,7 +204,7 @@ class _DashboardViewState extends BaseViewState<DashboardView>
                                   : AppColors.appGrayColor,
                             ),
                             Text(
-                              "Favourite",
+                              dashboardFavourite,
                               style: TextStyle(
                                   color: currentPage == 1
                                       ? AppColors.colorPrimary
@@ -228,7 +230,7 @@ class _DashboardViewState extends BaseViewState<DashboardView>
                                   : AppColors.appGrayColor,
                             ),
                             Text(
-                              "Profile",
+                              dashboardProfile,
                               style: TextStyle(
                                   color: currentPage == 2
                                       ? AppColors.colorPrimary

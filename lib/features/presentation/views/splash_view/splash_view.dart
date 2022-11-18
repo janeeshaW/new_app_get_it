@@ -18,8 +18,6 @@ import 'package:news_app/features/presentation/views/base_view.dart';
 class SplashView extends BaseView {
   const SplashView({Key? key}) : super(key: key);
 
-  //const SplashView({super.key});
-
   @override
   State<SplashView> createState() => _SplashViewState();
 }
